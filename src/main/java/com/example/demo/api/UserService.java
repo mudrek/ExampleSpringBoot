@@ -11,10 +11,10 @@ public class UserService {
 
     public List<User> createUsers() {
         List<User> users = new ArrayList<>();
-        users.add(new User("Pessoa 1", "pessoa_1", "pessoa1@email.com"));
-        users.add(new User("Pessoa 2", "pessoa_2", "pessoa2@email.com"));
-        users.add(new User("Pessoa 3", "pessoa_3", "pessoa3@email.com"));
-        users.add(new User("Pessoa 4", "pessoa_4", "pessoa4@email.com"));
+        users.add(new User(1L, "Pessoa 1", "pessoa_1", "pessoa1@email.com"));
+        users.add(new User(2L, "Pessoa 2", "pessoa_2", "pessoa2@email.com"));
+        users.add(new User(3L, "Pessoa 3", "pessoa_3", "pessoa3@email.com"));
+        users.add(new User(4L, "Pessoa 4", "pessoa_4", "pessoa4@email.com"));
         return users;
     }
 
