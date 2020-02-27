@@ -26,7 +26,7 @@ public class UserService {
             user.setName(userDTO.getName());
             user.setEmail(userDTO.getEmail());
             user.setUsername(userDTO.getUsername());
-
+            userRepository.save(user);
             return user;
         }).map(UserDTO::new)
                 .orElseThrow(() -> new ObjectNotFoundException("User not found"));
