@@ -1,4 +1,4 @@
-package com.example.demo.api;
+package com.example.demo.api.exceptions;
 
 import java.io.Serializable;
 

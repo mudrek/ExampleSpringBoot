@@ -1,6 +1,6 @@
 package com.example.demo.api.users;
 
-import com.example.demo.api.ObjectNotFoundException;
+import com.example.demo.api.exceptions.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
